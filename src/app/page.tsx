@@ -7,7 +7,7 @@ const page = () => {
       <div>
         <Sidebar />
       </div>
-      <div className="w-full">
+      <div className="w-full ">
         <Navbar />
       </div>
     </div>

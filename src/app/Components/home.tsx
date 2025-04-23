@@ -1,5 +1,6 @@
 import React from "react";
 import { Calendar, Search, Menu } from "@deemlol/next-icons";
+import Homescreen from "./homescreen";
 
 const Home = () => {
   return (
@@ -38,6 +39,9 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div>
+        <Homescreen />
       </div>
     </>
   );

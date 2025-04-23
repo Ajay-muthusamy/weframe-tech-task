@@ -37,7 +37,7 @@ const Sidebar: React.FC = () => {
   const [selected, setSelected] = useState<string>("Dashboard");
 
   return (
-    <div className="w-[280px] bg-white p-4 pt-5">
+    <div className="w-[280px] bg-white p-4 pt-24 h-full">
       {/* sidebar link(icon ,name) */}
       {sidebarLink.map((data, index) => {
         const isActive = selected === data.name;
