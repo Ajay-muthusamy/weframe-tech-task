@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <div className="p-4 bg-white m-[20px] rounded-md">
-        <div className="flex justify-end gap-3 items-center">
+        <div className="flex justify-end gap-3 items-center flex-col md:flex-row">
           {/* Search Input Container */}
           <div className="relative">
             <span className="absolute left-4 top-1/2 transform -translate-y-1/2">
@@ -15,7 +15,7 @@ const Home = () => {
             <input
               type="text"
               placeholder="Search"
-              className="w-[350px] h-[50px] pl-12 pr-4 rounded-md bg-gray-100 text-sm border-2 border-gray-400
+              className="h-[40px] w-[300px] md:w-[350px] md:h-[50px] pl-12 pr-4 rounded-md bg-gray-100 text-sm border-2 border-gray-400
             shadow-md"
             />
           </div>

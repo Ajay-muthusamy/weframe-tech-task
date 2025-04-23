@@ -10,11 +10,13 @@ const Navbar = () => {
       <div>
         <div className="bg-white flex justify-between items-center  p-4 shadow-sm ">
           <div className="flex gap-2 items-center">
-            <ArrowLeft size={24} color="#000000FF" />
-            <h1 className="text-lg font-medium">Stories</h1>
+            <div className="hidden md:block">
+              <ArrowLeft size={24} color="#000000FF" />
+              <h1 className="text-lg font-medium">Stories</h1>
+            </div>
           </div>
 
-          <div className="w-[297px] h-[53px] bg-gray-50 border-2 border-gray-200 rounded-md flex items-center gap-4 px-3">
+          <div className="md:w-[297px] md:h-[53px] gap-2 bg-gray-50 border-2 border-gray-200 rounded-md flex items-center md:gap-4 px-3">
             <Image
               src={profileImage}
               alt="Profile"

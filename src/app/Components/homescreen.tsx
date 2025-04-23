@@ -36,13 +36,13 @@ const HomeScreen = () => {
   return (
     <div className="p-4">
       {/* Filter Buttons */}
-      <div className="flex flex-wrap gap-4">
+      <div className="flex flex-wrap gap-3 md:gap-4 text-center">
         {options.map((data, index) => {
           const isActive = selected === data.optionName;
           return (
             <div key={index}>
               <div
-                className={`w-[119px] h-[54px] rounded-md ${
+                className={`w-[80px] h-[40px] md:w-[119px] md:h-[54px] rounded-md ${
                   isActive ? "bg-blue-950 text-white" : "bg-gray-200 text-black"
                 } flex items-center justify-center transition-all cursor-pointer text-medium`}
                 onClick={() => setSelected(data.optionName)}
@@ -57,7 +57,7 @@ const HomeScreen = () => {
       </div>
 
       {/* Cards */}
-      <div className="flex flex-wrap gap-4 mt-5">
+      <div className="flex flex-wrap gap-4 mt-5 justify-center">
         {list.map((data, index) => {
           return (
             <div key={index} className="w-[280px] h-[400px]">
