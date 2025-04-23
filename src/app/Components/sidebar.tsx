@@ -93,7 +93,7 @@ const Sidebar: React.FC = () => {
 
         {/* Contact Support */}
         <div>
-          <div className="w-[232px] h-[46px] bg-[#E8E9FF] rounded-md mt-8">
+          <div className="w-[232px] h-[46px] bg-[#E8E9FF] rounded-md md:mt-8">
             <div className="flex items-center space-x-4 h-full px-4">
               <Headphones size={24} color="#000000FF" />
               <h1>Contact Support</h1>
