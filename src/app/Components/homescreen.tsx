@@ -31,7 +31,7 @@ const getTextColor = (status: string) => {
 };
 
 const HomeScreen = () => {
-  const [selected, setSelected] = useState<string>();
+  const [selected, setSelected] = useState<string>('All');
 
   return (
     <div className="p-4">
